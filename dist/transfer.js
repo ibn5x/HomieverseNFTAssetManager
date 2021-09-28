@@ -7,7 +7,7 @@ init = async () =>{
     let currentUser = await Moralis.User.current();
 
     if(!currentUser){
-        window.location.pathname = "./index.html"; 
+        window.location.pathname = "./HomieverseNFTAssetManager/index.html"; 
     }
 
     const urlParams = new URLSearchParams(window.location.search);
