@@ -7,7 +7,7 @@ init = async () =>{
     let currentUser = await Moralis.User.current();
 
     if(!currentUser){
-        window.location.pathname = "./NFT-Manager/index.html"; 
+        window.location.pathname = "./index.html"; 
     }
 
     web3 = await Moralis.Web3.enable(); //initiaizing web3 library via moralis
